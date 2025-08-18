@@ -1,0 +1,45 @@
+@layer theme {
+  :root {
+    --background: 255 255 255; /* white */
+    --foreground: 23 23 23;   /* neutral-900 */
+
+    --primary: 79 70 229;     /* indigo-600 */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 15 118 110;  /* teal-600 */
+    --secondary-foreground: 255 255 255;
+
+    --accent: 219 39 119;     /* pink-600 */
+    --accent-foreground: 255 255 255;
+
+    --muted: 243 244 246;     /* gray-100 */
+    --muted-foreground: 107 114 128; /* gray-500 */
+
+    --border: 229 231 235;    /* gray-200 */
+    --ring: 79 70 229;        /* indigo-600 */
+
+    --radius: 0.5rem;
+  }
+
+  @theme inline {
+    --color-background: rgb(var(--background));
+    --color-foreground: rgb(var(--foreground));
+
+    --color-primary: rgb(var(--primary));
+    --color-primary-foreground: rgb(var(--primary-foreground));
+
+    --color-secondary: rgb(var(--secondary));
+    --color-secondary-foreground: rgb(var(--secondary-foreground));
+
+    --color-accent: rgb(var(--accent));
+    --color-accent-foreground: rgb(var(--accent-foreground));
+
+    --color-muted: rgb(var(--muted));
+    --color-muted-foreground: rgb(var(--muted-foreground));
+
+    --color-border: rgb(var(--border));
+    --color-ring: rgb(var(--ring));
+
+    --radius: var(--radius);
+  }
+}
